@@ -48,7 +48,8 @@ var plugins = [
   { name: 'emoji', entry: 'emoji.js', moduleName: 'Emoji' },
   { name: 'external-script', entry: 'external-script.js', moduleName: 'ExternalScript' },
   { name: 'front-matter', entry: 'front-matter/index.js', moduleName: 'FrontMatter' },
-  { name: 'zoom-image', entry: 'zoom-image.js', moduleName: 'ZoomImage' }
+  { name: 'zoom-image', entry: 'zoom-image.js', moduleName: 'ZoomImage' },
+  { name: 'navigation', entry: 'navigation.js', moduleName: 'Navigation' }
 ]
 
 plugins.forEach(item => {
